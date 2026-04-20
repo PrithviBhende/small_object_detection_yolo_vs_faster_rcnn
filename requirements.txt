@@ -1,0 +1,39 @@
+# ============================================================
+# UAV Small Object Detection — Requirements
+# Project: YOLOv11 vs Faster R-CNN on VisDrone-2019
+# GPU: RTX 3050 Ti (4GB VRAM) compatible
+# ============================================================
+
+# Core Deep Learning
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Ultralytics YOLOv11
+ultralytics>=8.3.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+albumentations>=1.3.0
+
+# Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Metrics & Evaluation
+pycocotools>=2.0.7
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+requests>=2.31.0
+psutil>=5.9.0
+
+# Optional: for better logging
+tensorboard>=2.14.0
